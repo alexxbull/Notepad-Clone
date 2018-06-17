@@ -108,6 +108,7 @@ public class JNotepad
         makePopupMenu();
 
         win.setJMenuBar(bar);
+		win.setLocationRelativeTo(null);
         win.setVisible(true);
     }
 
